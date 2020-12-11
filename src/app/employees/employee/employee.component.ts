@@ -12,9 +12,9 @@ import { NotificationService } from '../../shared/notification.service';
 })
 export class EmployeeComponent implements OnInit {
 
-  constructor(private service: EmployeeService,
-    private departmentService: DepartmentService,
-    private notificationService: NotificationService,
+  constructor(public service: EmployeeService,
+    public departmentService: DepartmentService,
+    public notificationService: NotificationService,
     public dialogRef: MatDialogRef<EmployeeComponent>) { }
 
 
