@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
 import { EmployeesComponent } from './employees/employees.component';
 import { EmployeeComponent } from './employees/employee/employee.component';
 import { EmployeeService } from './shared/employee.service';
-import { environment } from '../environments/environment';
+import { environment } from '../environments/environment.prod';
 import { DepartmentService } from './shared/department.service';
 import { EmployeeListComponent } from './employees/employee-list/employee-list.component';
 import { MatConfirmDialogComponent } from './mat-confirm-dialog/mat-confirm-dialog.component';
